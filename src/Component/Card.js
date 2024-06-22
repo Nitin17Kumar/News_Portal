@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 function Card({ article }) {
-  const{url,urlToImage,title,author,description,content}=article;
+  const{url,urlToImage,title,author,description}=article;
   
     return (
     <div className="card">

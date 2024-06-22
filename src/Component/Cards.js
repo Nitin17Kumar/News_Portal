@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Card from './Card';
 import './Card.css'; // Import the CSS file
 
-function Cards({ articles ,searchTerm}) {
-  const searchon=searchTerm;
+function Cards({ articles }) {
   const [currentPage, setCurrentPage] = useState(1);
   const articlesPerPage = 6; // Number of articles per page
   const [currentArticles, setCurrentArticles] = useState([]);
@@ -33,7 +32,7 @@ function Cards({ articles ,searchTerm}) {
   return (
     <div className="cards-container">
       {currentArticles.map((article, index) => (
-        <Card key={index} article={article} />
+        <Card key={index} article={article} ></Card>
       ))}
       <div className="pagination">
         <button
