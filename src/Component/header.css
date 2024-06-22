@@ -1,0 +1,75 @@
+.logo{
+    font-size: large;
+    color: blueviolet;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cat_view{
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 12px;
+}
+.home_view{
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+    font-size: large;
+}
+.search_view{
+    font-size: large;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+}
+.login{
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+    font-size: large;
+}
+.search{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 90px;
+    border-radius: 25px;
+    background-color: ghostwhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+
+}
+.login_botton{
+    margin-left: 15px;
+}
+.search_fill{
+    margin-left: 30rem;
+}
+
+
+

@@ -1,0 +1,108 @@
+.Image_art{
+    height: 350px;
+    width: 350px;
+    max-width: 500px;
+    max-height: 500px;
+    background: transparent;
+    transition: all;
+  }
+  .title{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    text-align: justify;
+  }
+.card{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: cornsilk;
+  object-fit: cover;
+  justify-content: center;
+  max-width: 450px;
+  padding: 30px;
+  border-style: 1px solid;
+  border-radius: 25px;
+}
+.card-content{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.desc{
+  max-width: 300px;
+  text-align: justify;
+  text-align: justify;
+}
+.author{
+  font-family: 'Courier New', Courier, monospace;
+}
+.readmore{
+  color: rgb(111, 111, 227);
+  text-decoration: none;
+  justify-self: end;
+  align-items: end;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust the gap between cards as needed */
+  margin: 5rem;
+}
+
+.cards-container > * {
+  flex: 1 1 calc(33.333% - 16px); /* 3 cards per row with spacing */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+@media (max-width: 768px) {
+  .cards-container > * {
+    flex: 1 1 calc(50% - 16px); /* 2 cards per row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-container > * {
+    flex: 1 1 100%; /* 1 card per row for very small screens */
+  }
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  max-height: 50px;
+}
+
+.page-button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.page-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+  border-color: #0056b3;
+}
